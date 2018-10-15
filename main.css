@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body {
+    background-color: darkred;
+}
+#banner {
+	border: solid brown 2px;
+	height: 250px;
+	width: 50%;
+	background-image: url("https://d3hmvhl7ru3t12.cloudfront.net/img/logos/overwatch-share-3d5a268515283007bdf3452e877adac466d579f4b44abbd05aa0a98aba582eeaebc4541f1154e57ec5a43693345bebda953381a7b75b58adbd29d3f3eb439ad2.jpg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+    border-radius: 20px;
+    margin: auto;
+}
+background-img {
+    width: 500px;
+}
+#nav {
+	border: solid red 2px;
+	height: 50px;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	padding-top: 15px;
+}
+#nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: red;
+}
+#nav a:hover {
+	text-decoration: none;
+	color: orchid;
+}
+#nav a:visit {
+	color: orange;
+	text-decoration: bold;
+}
+#main {
+	border: solid brown 2px; 
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 5px;
+}
+.first {
+    height: 250px;
+    width: 400px;
+    position: center;
+    margin-left: 50px;              
+}
+#footer {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    color: blue;
+}
