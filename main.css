@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-body {
-    background-image: url("http://news.sportslogos.net/wp-content/uploads/2018/03/MLB-2018.jpg");
-}
 #banner {
 	border: ridge gray 7px;
 	height: 250px;
@@ -9,9 +6,9 @@ body {
 	background-image: url("http://i.imgur.com/ie69UV3.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: auto;
+    background-attachment: fixed;
 }
 background-img {
     width: 500px;
