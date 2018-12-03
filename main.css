@@ -1,26 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-#banner {
-	border: ridge gray 7px;
-	height: 250px;
-	width: 50%;
-	background-image: url("http://i.imgur.com/ie69UV3.gif");
-	background-size: cover;
-	background-repeat: no-repeat;
-    border-radius: 15px;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+body {
+    background-image: url("https://s.aolcdn.com/hss/storage/midas/fa9348f0c11bd395477e10dcef498fc5/205280051/overwatch_oneyear-ed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+}
+#banner {
+	border: solid brown 2px;
+	height: 250px;
+	width: 35%;
+	background-image: url("https://upload.wikimedia.org/wikipedia/fr/d/d9/Overwatch_Logo.png");
+	background-size: 350px 280px;
+	background-repeat: no-repeat;
+	background-position: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 0px;
 }
 background-img {
     width: 500px;
 }
 #nav {
-	border: solid red 2px;
+	border: ridge red 4px;
 	height: 50px;
 	width: 40%;
 	margin: auto;
-	padding-top: 15px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 #nav a {
 	padding-left: 10px;
@@ -36,7 +45,6 @@ background-img {
 	text-decoration: bold;
 }
 #main {
-	border: solid brown 2px; 
     height: 550px;
     width: 500px;
     margin: auto;
@@ -47,11 +55,49 @@ background-img {
     height: 250px;
     width: 400px;
     position: center;
-    margin-left: 50px;              
+    margin-left: 50px;
 }
 #footer {
     text-align: center;
     font-family: cursive;
     text-decoration: none;
     color: blue;
+}
+
+ p {
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+@keyframes -animation{
+    10%{
+         color: yellow;
+    }
+    20%{
+         color: lightblue;
+    }
+    30%{
+         color: gold;
+    }
+    40%{
+         color: red;
+    }
+    50%{
+         color: white;
+    }
+    50%{
+         color: brown;
+    }
+    50%{
+         color: purple;
+    }
+    50%{
+         color: darkblue;
+    }
+}
+p{ 
+  width: none;
+  height: none;
+  animation: -animation 12s infinite linear alternate;
 }
